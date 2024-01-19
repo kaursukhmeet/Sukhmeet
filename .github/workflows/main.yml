@@ -17,4 +17,5 @@ jobs:
         major_pattern: "breaking:"
         minor_pattern: "feat:"
         version_format: ${major}.${minor}.${patch}
+        search_commit_body: true
         bump_each_commit: true
